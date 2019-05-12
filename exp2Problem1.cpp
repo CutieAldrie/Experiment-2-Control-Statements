@@ -27,7 +27,7 @@ int main()
 		cout << "Please enter number of hours consumed: "; cin >> hours;
 		if (hours <= accesshours)
 		{
-			cout << " Your total bill is P" << monthlyfee << endl; break;
+			cout << " Your total bill is P" << monthlyfee << endl; 
 		}
 		else if (hours > accesshours)
 		{
